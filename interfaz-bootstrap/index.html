@@ -47,7 +47,14 @@
                         <label for="apellidoPersona" class="form-label">Apellido</label>
                         <input type="text" class="form-control" id="apellidoPersona" placeholder="apellido">
                       </div>
-                      
+                      <div class="mb-3">
+                        <label for="sexo">Sexo</label>
+                        <select class="form-select" aria-label="Default select example">
+                          <option selected>Seleccione</option>
+                          <option value="1">Masculino</option>
+                          <option value="2">Femenino</option>
+                        </select>
+                      </div>
                       <div class="mb-3">
                         <label for="fechanacimientoPersona" class="form-label">Fecha de nacimiento</label>
                         <input type="date" class="form-control" id="fechanacimientoPersona" placeholder="fecha de nacimiento">
@@ -55,10 +62,6 @@
                       <div class="mb-3">
                         <label for="emailPersona" class="form-label">Email</label>
                         <input type="email" class="form-control" id="emailPersona" placeholder="name@example.com">
-                      </div>
-                      <div class="mb-3">
-                        <label for="telefonoPersona" class="form-label">Telefono</label>
-                        <input type="number" class="form-control" id="telefonoPersona" placeholder="telefono">
                       </div>
                       <div class="d-grid gap-2">
                         <button class="btn btn-success">Guardar</button>
